@@ -65,21 +65,32 @@ body{
     height: 100vh;
 }
 .about-section{
+    margin-top: 5px;
     display: flex;
+    border: 1px solid black;
 }
 .product-img{
     width: 250px;
     height: 250px;
-    object-fit: contain;
+    object-fit:fill;
+    margin-left: 17px;
 }
 .product-div{
     border: 1px solid black;
     border-radius: 5px;
+    background-color: black;
 }
 .product-details{
     border-top: 1px solid gray;
+    color: aliceblue;
 }
 .product-div:hover{
-    box-shadow: 0px 0px 7px darkgrey;
-    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px darkgrey;
+    background-color: honeydew;
+}
+.product-details:hover{
+    color: black;
+}
+.product-section{
+    background-color: lavender;
 }
